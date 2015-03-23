@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61B4CEDE1ABD099F00699187 /* ScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4CEDD1ABD099F00699187 /* ScanController.swift */; };
+		61B4CEE01ABD0D3D00699187 /* ChooseDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4CEDF1ABD0D3D00699187 /* ChooseDeviceController.swift */; };
 		61DE6D471AB909070086B1C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DE6D461AB909070086B1C3 /* AppDelegate.swift */; };
-		61DE6D491AB909070086B1C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DE6D481AB909070086B1C3 /* ViewController.swift */; };
+		61DE6D491AB909070086B1C3 /* RemoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DE6D481AB909070086B1C3 /* RemoteController.swift */; };
 		61DE6D4C1AB909070086B1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DE6D4A1AB909070086B1C3 /* Main.storyboard */; };
 		61DE6D4E1AB909070086B1C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61DE6D4D1AB909070086B1C3 /* Images.xcassets */; };
 		61DE6D511AB909070086B1C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61DE6D4F1AB909070086B1C3 /* LaunchScreen.xib */; };
 		61DE6D5D1AB909070086B1C3 /* rc_controllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DE6D5C1AB909070086B1C3 /* rc_controllerTests.swift */; };
+		61DE6D691AB909200086B1C3 /* JoyStickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DE6D681AB909200086B1C3 /* JoyStickView.m */; };
+		61DE6D6D1AB90A840086B1C3 /* stick_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 61DE6D6A1AB90A840086B1C3 /* stick_base.png */; };
+		61DE6D6E1AB90A840086B1C3 /* stick_hold.png in Resources */ = {isa = PBXBuildFile; fileRef = 61DE6D6B1AB90A840086B1C3 /* stick_hold.png */; };
+		61DE6D6F1AB90A840086B1C3 /* stick_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 61DE6D6C1AB90A840086B1C3 /* stick_normal.png */; };
+		61DE6D711AB9188E0086B1C3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DE6D701AB9188E0086B1C3 /* CoreBluetooth.framework */; };
+		61DE6D731AB920DA0086B1C3 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DE6D721AB920DA0086B1C3 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61B4CEDD1ABD099F00699187 /* ScanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanController.swift; sourceTree = "<group>"; };
+		61B4CEDF1ABD0D3D00699187 /* ChooseDeviceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDeviceController.swift; sourceTree = "<group>"; };
 		61DE6D411AB909070086B1C3 /* rc-controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rc-controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DE6D451AB909070086B1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61DE6D461AB909070086B1C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61DE6D481AB909070086B1C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61DE6D481AB909070086B1C3 /* RemoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteController.swift; sourceTree = "<group>"; };
 		61DE6D4B1AB909070086B1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61DE6D4D1AB909070086B1C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		61DE6D501AB909070086B1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		61DE6D561AB909070086B1C3 /* rc-controllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rc-controllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DE6D5B1AB909070086B1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61DE6D5C1AB909070086B1C3 /* rc_controllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rc_controllerTests.swift; sourceTree = "<group>"; };
+		61DE6D661AB909200086B1C3 /* rc-controller-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rc-controller-Bridging-Header.h"; sourceTree = "<group>"; };
+		61DE6D671AB909200086B1C3 /* JoyStickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyStickView.h; sourceTree = "<group>"; };
+		61DE6D681AB909200086B1C3 /* JoyStickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyStickView.m; sourceTree = "<group>"; };
+		61DE6D6A1AB90A840086B1C3 /* stick_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick_base.png; sourceTree = "<group>"; };
+		61DE6D6B1AB90A840086B1C3 /* stick_hold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick_hold.png; sourceTree = "<group>"; };
+		61DE6D6C1AB90A840086B1C3 /* stick_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick_normal.png; sourceTree = "<group>"; };
+		61DE6D701AB9188E0086B1C3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		61DE6D721AB920DA0086B1C3 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		61DE6D741AB920DA0086B1C3 /* rc-controller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "rc-controller.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61DE6D731AB920DA0086B1C3 /* ExternalAccessory.framework in Frameworks */,
+				61DE6D711AB9188E0086B1C3 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +80,11 @@
 		61DE6D381AB909070086B1C3 = {
 			isa = PBXGroup;
 			children = (
+				61DE6D721AB920DA0086B1C3 /* ExternalAccessory.framework */,
+				61DE6D701AB9188E0086B1C3 /* CoreBluetooth.framework */,
+				61DE6D6A1AB90A840086B1C3 /* stick_base.png */,
+				61DE6D6B1AB90A840086B1C3 /* stick_hold.png */,
+				61DE6D6C1AB90A840086B1C3 /* stick_normal.png */,
 				61DE6D431AB909070086B1C3 /* rc-controller */,
 				61DE6D591AB909070086B1C3 /* rc-controllerTests */,
 				61DE6D421AB909070086B1C3 /* Products */,
@@ -77,12 +103,18 @@
 		61DE6D431AB909070086B1C3 /* rc-controller */ = {
 			isa = PBXGroup;
 			children = (
+				61DE6D741AB920DA0086B1C3 /* rc-controller.entitlements */,
+				61DE6D671AB909200086B1C3 /* JoyStickView.h */,
+				61DE6D681AB909200086B1C3 /* JoyStickView.m */,
 				61DE6D461AB909070086B1C3 /* AppDelegate.swift */,
-				61DE6D481AB909070086B1C3 /* ViewController.swift */,
+				61DE6D481AB909070086B1C3 /* RemoteController.swift */,
 				61DE6D4A1AB909070086B1C3 /* Main.storyboard */,
 				61DE6D4D1AB909070086B1C3 /* Images.xcassets */,
 				61DE6D4F1AB909070086B1C3 /* LaunchScreen.xib */,
 				61DE6D441AB909070086B1C3 /* Supporting Files */,
+				61DE6D661AB909200086B1C3 /* rc-controller-Bridging-Header.h */,
+				61B4CEDD1ABD099F00699187 /* ScanController.swift */,
+				61B4CEDF1ABD0D3D00699187 /* ChooseDeviceController.swift */,
 			);
 			path = "rc-controller";
 			sourceTree = "<group>";
@@ -161,6 +193,12 @@
 				TargetAttributes = {
 					61DE6D401AB909070086B1C3 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = Q67YZ6BUYV;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 					61DE6D551AB909070086B1C3 = {
 						CreatedOnToolsVersion = 6.2;
@@ -192,7 +230,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61DE6D6E1AB90A840086B1C3 /* stick_hold.png in Resources */,
 				61DE6D4C1AB909070086B1C3 /* Main.storyboard in Resources */,
+				61DE6D6D1AB90A840086B1C3 /* stick_base.png in Resources */,
+				61DE6D6F1AB90A840086B1C3 /* stick_normal.png in Resources */,
 				61DE6D511AB909070086B1C3 /* LaunchScreen.xib in Resources */,
 				61DE6D4E1AB909070086B1C3 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61DE6D491AB909070086B1C3 /* ViewController.swift in Sources */,
+				61B4CEDE1ABD099F00699187 /* ScanController.swift in Sources */,
+				61DE6D491AB909070086B1C3 /* RemoteController.swift in Sources */,
+				61B4CEE01ABD0D3D00699187 /* ChooseDeviceController.swift in Sources */,
+				61DE6D691AB909200086B1C3 /* JoyStickView.m in Sources */,
 				61DE6D471AB909070086B1C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,9 +382,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "rc-controller/rc-controller.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "rc-controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "rc-controller/rc-controller-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +399,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "rc-controller/rc-controller.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "rc-controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "rc-controller/rc-controller-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +464,7 @@
 				61DE6D621AB909070086B1C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61DE6D631AB909070086B1C3 /* Build configuration list for PBXNativeTarget "rc-controllerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +473,7 @@
 				61DE6D651AB909070086B1C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
